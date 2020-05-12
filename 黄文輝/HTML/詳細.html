@@ -1,0 +1,96 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ContractPage</title>
+
+<style type="text/css">
+	div {background:87CEEB;border:1px solid #000000;padding:8px 8px 8px}
+	table {
+		overflow:hidden;
+		border:1px solid #0000cd;
+		width:100%;
+	}
+	td {padding:8px 8px 8px;}
+	
+	td {border-top:1px solid #000000; border-right:1px solid #000000;}
+</style>
+</head>
+<body>
+	<form>
+		<br>
+		<div>
+			<table cellspacing="0">
+				<tr>
+					<td>顧客名: </td>
+					<td><input type="text" name="companyName"></td>
+					<td>標準稼働時間: </td>
+					<td><input type="text" name="workDay">日&nbsp;&nbsp;＊&nbsp;<input type="text" name="workTime">時間</td>
+				</tr>
+				<tr>
+					<td>氏名： </td>
+					<td><input type="text" name="employeeName"></td>
+					<td>形態： </td>
+					<td><select name="type">
+					<option value="type1">派遣</option>
+					<option value="type2">準委任</option>
+					<option value="type3">待機</option>
+					</select></td>
+				</tr>
+			</table>
+			<hr>
+			<table cellspacing="0">
+				<tr>
+					<td>プロジェクト名：</td>
+					<td><input type="text" name="projectName"></td>
+					<td>契約単価： </td>
+					<td><input type="text" name="contractPrice"></td>
+					<td>精算上限： </td>
+					<td><input type="text" name="upline"></td>
+				</tr>
+				<tr>
+					<td>単価：</td>
+					<td><input type="text" name="price"></td>
+					<td>工数： </td>
+					<td><input type="text" name="workedTime"></td>
+					<td>精算下限： </td>
+					<td><input type="text" name="downline"></td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<table cellspacing="0">
+				<tr>
+					<td>協力会社名：</td>
+					<td><input type="text" name="co-companyName"></td>
+					<td>緊急連絡先： </td>
+					<td><input type="text" name="phone"></td>
+				</tr>
+				<tr>
+					<td>協力会社条件：</td>
+					<td><input type="text" name="co-companyRequirement"></td>
+					<td>協力会社単金： </td>
+					<td><input type="text" name="co-companyPrice"></td>
+				</tr>
+				<tr>
+					<td>精算幅： </td>
+					<td><input type="text" name="price1"></td>
+					<td>減単金： </td>
+					<td><input type="text" name="priceMinus"></td>
+					<td>増単金： </td>
+					<td><input type="text" name="pricePlus"></td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			備考： <br>
+			<textarea rows="10" cols="100%">XXXXXXXXXXXXX
+			</textarea><br><hr>
+			<button>保存</button>
+			<button>戻る</button>
+		</div>
+	</form>
+</body>
+</html>

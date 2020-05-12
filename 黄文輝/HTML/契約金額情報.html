@@ -1,0 +1,136 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ContractPage</title>
+
+<style type="text/css">
+	table {
+		overflow:hidden;
+		border:1px solid #0000cd;
+		width:100%;
+	}
+	
+	th, td {padding:8px 8px 8px; text-align:center; }
+	
+	th {padding-top:6px; background:#0000cd; color:#ffffff}
+	
+	td {border-top:1px solid #00bfff; border-right:1px solid #00bfff;}
+	
+</style>
+</head>
+<body>
+	<form>
+	<br>
+		<div>
+			顧客名: <input type="text" name="companyName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			プロジェクト名: <input type="text" name="projectName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			形態: <input type="text" name="type">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			日付: <input type="text" name="date"><br><br>
+			現場: <input type="text" name="workPlace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="検索">
+		</div><br>
+		<div>
+			<table cellspacing="0">
+				<tr>
+					<th>No.</th>
+					<th>顧客名</th>
+					<th>プロジェクト名</th>
+					<th>氏名</th>
+					<th>形態</th>
+					<th>所属</th>
+					<th>予想売掛金</th>
+					<th>実際売掛金</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>日立ソリューション東日本</td>
+					<td>プロジェクト1</td>
+					<td>宮森</td>
+					<td>派遣</td>
+					<td>UCL</td>
+					<td>400,000</td>
+					<td>438,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>日立ソリューション東日本</td>
+					<td>プロジェクト2</td>
+					<td>鈴木</td>
+					<td>派遣</td>
+					<td>ソリューション部</td>
+					<td>330,000</td>
+					<td>656,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>日立ソリューション東日本</td>
+					<td>プロジェクト3</td>
+					<td>宮本</td>
+					<td>準委任</td>
+					<td>UCL</td>
+					<td>360,000</td>
+					<td>454,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>日立システムズES</td>
+					<td>プロジェクト4</td>
+					<td>佐藤</td>
+					<td>準委任</td>
+					<td>本社</td>
+					<td>500,000</td>
+					<td>223,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>日立システムズES</td>
+					<td>プロジェクト5</td>
+					<td>吉田</td>
+					<td>待機</td>
+					<td>UCL</td>
+					<td>220,000</td>
+					<td>434,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+				<tr>
+					<td>合計</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>1,810,000</td>
+					<td>2,205,000</td>
+					<td>
+						<button>詳細</button>
+						<button>更新</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>
