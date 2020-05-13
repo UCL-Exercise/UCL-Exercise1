@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    top: 0;
+    /*background-color: rgb(128, 149, 245);*/
+}
+
+.info{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+}
+.info1{
+    position: absolute;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+.title{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.info .myinfo{
+    width: 48%;
+    height: 240px;
+}
+.myinfo .s1{
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+.myinfo .s1 .s1_1{
+    display: block;
+    float: right;
+}
+.myinfo .time{
+    display: block;
+    float: right;
+}
+.myinfo .s2{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border: black solid 1px;
+    background-color: rgba(125, 125, 125, 0.5);
+}
+
+
+
+.myinfo .s3{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    overflow: hidden;
+}
+.myinfo .s3 .name_f{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.myinfo .s3 .name_fi{
+    float: left;
+    width: 25%;
+    height: 100%;
+    outline: none;
+}
+.myinfo .s3 .sex{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+.myinfo .s3 .sex_i{
+    float: left;
+    width: 14%;
+    height: 100%;
+    outline: none;
+}
+.myinfo .s3 .country{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+.myinfo .s3 .country_i{
+    float: left;
+    width: 15.6%;
+    height: 100%;
+    outline: none;
+}
+
+
+
+.myinfo .s4{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    overflow: hidden;
+}
+.myinfo .s4 .name_s{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.myinfo .s4 .name_si{
+    float: left;
+    width: 25%;
+    height: 100%;
+    outline: none;
+}
+.myinfo .s4 .age{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+.myinfo .s4 .age_i{
+    float: left;
+    width: 14%;
+    height: 100%;
+    outline: none;
+}
+.myinfo .s4 .experience{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+.myinfo .s4 .experience_i{
+    float: left;
+    width: 15.6%;
+    height: 100%;
+    outline: none;
+}
+
+
+
+.myinfo .s5{
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    overflow: hidden;
+}
+.myinfo .s5 .ssgr{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.myinfo .s5 .sn{
+    width: 25.9%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s5 .sn .sn_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s5 .sn .sn_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s5 .major{
+    width: 29%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s5 .major .major_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s5 .major .major_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s5 .gr{
+    width: 14%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s5 .gr .gr_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s5 .gr .gr_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s5 .date{
+    width: 16.37%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s5 .date .date_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s5 .date .date_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+
+
+
+.myinfo .s6{
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    overflow: hidden;
+}
+.myinfo .s6 .sye{
+    width: 14%;
+    height: 100%;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.myinfo .s6 .rsm{
+    width: 25.9%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s6 .rsm .rsm_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s6 .rsm .rsm_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s6 .em{
+    width: 14%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s6 .em .em_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s6 .em .em_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s6 .ie{
+    width: 14.8%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-right: black solid 1px;
+    background-color: rgba(125, 125, 125, 0.5);
+    overflow: hidden;
+}
+.myinfo .s6 .tn{
+    width: 14%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s6 .tn .tn_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s6 .tn .tn_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.myinfo .s6 .ktsd{
+    width: 16.37%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.myinfo .s6 .ktsd .ktsd_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.myinfo .s6 .ktsd .ktsd_i{
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info .sk{
+    margin-top: 30px;
+    width: 48%;
+    height: 180px;
+}
+.info .sk .stsk{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border: black solid 1px;
+    background-color: rgba(125, 125, 125, 0.5);
+}
+.info .sk .sk_info{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    overflow: hidden;
+}
+.info .sk .sk_info .stnd1{
+    width: 14%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .sk .sk_info .stnd1 .stnd1_{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .sk .sk_info .stnd1 .stnd1_i{
+    width: 100%;
+    height: 16%;
+    outline: none;
+}
+.info .sk .sk_info .skm1{
+    width: 35.5%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .sk .sk_info .skm1 .skm1_{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .sk .sk_info .skm1 .skm1_i{
+    width: 100%;
+    height: 16%;
+    outline: none;
+}
+.info .sk .sk_info .stnd2{
+    width: 14%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .sk .sk_info .stnd2 .stnd2_{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .sk .sk_info .stnd2 .stnd2_i{
+    width: 100%;
+    height: 16%;
+    outline: none;
+}
+.info .sk .sk_info .skm2{
+    width: 35.9%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .sk .sk_info .skm2 .skm2_{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .sk .sk_info .skm2 .skm2_i{
+    width: 100%;
+    height: 16%;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+.info .my_info{
+    margin-top: 30px;
+    width: 48%;
+    height: 510px;
+    border: black solid 1px;
+    overflow: hidden;
+}
+.info .my_info .pr{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-bottom: black solid 1px;
+    background-color: rgba(125, 125, 125, 0.5);
+}
+.info .my_info .my_pr{
+    width: 100%;
+    height: 300px;
+    outline: none;
+}
+.info .my_info .by{
+    width: 100%;
+    height: 180px;
+    border-top:  black solid 1px;
+}
+.info .my_info .by .tyby{
+    width: 14%;
+    height: 100%;
+    float: left;
+    line-height: 180px;
+    text-align: center;
+    border-right: black solid 1px;
+    overflow: hidden;
+    background-color: rgba(125, 125, 125, 0.5);
+}
+.info .my_info .by .my_by{
+    width: 35.9%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .my_info .by .my_by .my_by_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .my_info .by .my_by .my_by_i{
+    width: 100%;
+    height: 12.5%;
+    outline: none;
+}
+.info .my_info .by .ny{
+    width: 49.6%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info .my_info .by .ny .ny_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info .my_info .by .ny .ny_i{
+    width: 100%;
+    height: 12.5%;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.info2{
+    float: right;
+    width: 48%;
+    height: 970px;
+    border: black solid 1px;
+}
+.info2 .hint{
+    width: 100%;
+    height: 30px;
+}
+.info .hint .jm{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+}
+.info .hint .cs{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+.info2 .title2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-bottom: black solid 1px;
+    background-color: rgba(125, 125, 125, 0.5);
+}
+.info2 .os{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: black solid 1px;
+}
+.info2 .os .os_title{
+    width: 12%;
+    height: 100%;
+    text-align: center;
+    line-height: 120px;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.info2 .l1{
+    width: 87.85%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+    border-bottom: black solid 1px;
+}
+.info2 .l1 .t1{
+    width: 12.33%;
+    height: 100%;
+    float: left;
+    border-right: black solid 1px;
+    overflow: hidden;
+}
+.info2 .l1 .t1 .t1_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info2 .l1 .t1 .t1_i{
+    width: 100%;
+    height: 25px;
+    outline: none;
+}
+.info2 .l2{
+    width: 87.85%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+}
+.info2 .l2 .l2_{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-bottom: black solid 1px;
+}
+.info2 .l2 .l2_i{
+    width: 100%;
+    height: 25px;
+    outline: none;
+}
+.info2 .gg{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: black solid 1px;
+}
+.info2 .gg .gg_title{
+    width: 12%;
+    height: 100%;
+    text-align: center;
+    line-height: 240px;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+.info .web{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: black solid 1px;
+}
+.info2 .web .web_title{
+    width: 12%;
+    height: 100%;
+    text-align: center;
+    line-height: 180px;
+    float: left;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-right: black solid 1px;
+}
+
+
+
+
+
+
+
+
+.operation{
+    width: 100%;
+    height: 200px;
+    border: solid 3px black;
+}
+.operation span{
+    display: block;
+    float: right;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.operation button{
+    float: left;
+    width: 50px;
+    height: 100%;
+    background-color: gold;
+}
