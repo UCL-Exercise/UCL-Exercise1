@@ -8,13 +8,7 @@
 <head>
 <title>Echo Application</title>
 </head>
-
-<script>
-function clickBtn(){
-	location.href = "${pageContext.request.contextPath}/add	";
-}
-</script>
-
+<script src="<c:url value="/resources/js/script.js" />" type="text/javascript"></script>
 <body>
   <!-- (1) -->
   <form:form modelAttribute="employeeForm" action="${pageContext.request.contextPath}/show">
@@ -30,6 +24,6 @@ function clickBtn(){
     	</tr>
     </table>
   </form:form>
-  <input type="button" value="新規追加" onclick="clickBtn()"/>
+  <input type="button" value="新規追加" onclick="clickBtn('${pageContext.request.contextPath}')"/>
 </body>
 </html>

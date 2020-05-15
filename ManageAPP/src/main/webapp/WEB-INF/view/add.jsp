@@ -8,21 +8,24 @@
 <head>
 <title>Echo Application</title>
 </head>
+<link href="<c:url value="/resources/css/style.css" />" rel="stylesheet" type="text/css">
+<script src="<c:url value="/resources/js/jquery-3.3.1.js" />" type="text/javascript"></script>
+<script src="<c:url value="/resources/js/script.js" />" type="text/javascript"></script>
 <body>
   <!-- (1) -->
   <form:form modelAttribute="employeeForm" action="${pageContext.request.contextPath}/data_add">
     <table>
     	<tr>
     		<td>職員ID：</td>
-    		<td><form:input path="id"/></td>
+    		<td><form:input path="id"/><span id="id"><form:errors path="id" class="error_msg"/></span></td>
     		<td>職員氏名：</td>
-    		<td><form:input path="name" class="input_error"/><span><form:errors path="name" class="error_message"/></span></td>
+    		<td><form:input path="name"/><span><form:errors path="name" class="error_msg"/></span></td>
     	</tr>
     	<tr>
     		<td>職員性別：</td>
     		<td><form:input path="sex" /></td>
     		<td>職員年齢：</td>
-    		<td><form:input path="age" /></td>
+    		<td><form:input path="age" /><span><form:errors path="age" class="error_msg"/></span></td>
     	</tr>
     	<tr>
     		<td>得意言語：</td>

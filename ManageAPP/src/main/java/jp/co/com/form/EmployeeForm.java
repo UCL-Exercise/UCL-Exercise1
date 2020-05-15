@@ -1,17 +1,22 @@
 package jp.co.com.form;
 
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
 import org.hibernate.validator.constraints.NotBlank;
 
 public class EmployeeForm {
 
+	@NotBlank(message = "職員IDを入力してください")
 	private String id;
 
-	@NotBlank
+	@NotBlank(message = "職員氏名を入力してください")
 	private String name;
 
 	String sex;
 
 	@NotBlank
+	@Size(max = 100,message = "100桁数以下しか入力できない")
 	String address;
 
 	@NotBlank
@@ -23,6 +28,7 @@ public class EmployeeForm {
 	@NotBlank
 	String exp_year;
 
+	@Pattern(regexp = "[1-9]?[0-9]", message = "数字を入力してください。")
 	String age;
 
 	String comment;
