@@ -32,4 +32,18 @@ public class EmployeeServiceImp implements EmployeeService{
 
 		return employee;
 	}
+
+	public void removeEmployeeInfo(String id) {
+		dao.removeEntity(id);
+	}
+
+	@Override
+	public void updateEmployeeInfo(EmployeeEntity entity) {
+		dao.updateEntity(entity);
+	}
+
+	@Override
+	public void addEmployeeInfo(EmployeeEntity entity) {
+		dao.addEntity(entity);
+	}
 }

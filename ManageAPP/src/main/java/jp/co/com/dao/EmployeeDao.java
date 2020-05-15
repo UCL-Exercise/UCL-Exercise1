@@ -10,7 +10,6 @@ public interface EmployeeDao {
 		public EmployeeEntity findById(String id);
 		public void addEntity(EmployeeEntity entity);
 		public void updateEntity(EmployeeEntity entity);
-		public void removeEntity(EmployeeEntity data);
 		public void removeEntity(String id);
 
 }

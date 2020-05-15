@@ -33,7 +33,7 @@ public class EmployeeDaoImp implements EmployeeDao{
 	@SuppressWarnings("unchecked")
 	public List<EmployeeEntity> getAllEntity() {
 		System.out.println("getAllEntity()");
-		Query query = manager.createQuery("from employee");
+		Query query = manager.createQuery("from EmployeeEntity");
 		return query.getResultList();
 	}
 
@@ -61,17 +61,6 @@ public class EmployeeDaoImp implements EmployeeDao{
 		EntityTransaction transaction = manager.getTransaction();
 		transaction.begin();
 		manager.merge(entity);
-		manager.flush();
-		transaction.commit();
-	}
-
-	public void removeEntity(EmployeeEntity entity) {
-		System.out.println("removeEntity(entity)");
-		// Transactionは共通のmanagerでは使えないのでここでmanagerを取り直す
-		EntityManager manager = factory.getNativeEntityManagerFactory().createEntityManager();
-		EntityTransaction transaction = manager.getTransaction();
-		transaction.begin();
-		manager.remove(entity);
 		manager.flush();
 		transaction.commit();
 	}
