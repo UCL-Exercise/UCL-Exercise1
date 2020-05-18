@@ -16,5 +16,7 @@
 	        <property name="suffix" value=".jsp"/>
 	</bean>
 
+	<bean class="jp.co.com.error.CustomExceptionResolver"></bean>
+
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 </beans>
