@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    top: 0;
+    background-color: rgb(128, 149, 245);
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border: solid 3px black;
+    box-sizing:border-box;
+}
+
+.header .header_info{
+    margin: 30px auto;
+}
+
+.header_info li{
+    list-style: none;
+    display: block;
+    position: relative;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.header_info li input{
+    height: 30px;
+    background-color: gold;
+    vertical-align: 3px;
+}
+
+
+
+.header .search input{
+	float: left;
+    width: 100px;
+    background-color: gold;
+}
+
+
+
+
+
+
+.info_menu{
+    height: 30px;
+    width: 100%;
+    border: solid 3px black;
+    border-top: none;
+    box-sizing:border-box;
+}
+.info_menu span{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    width: 100px;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.info_menu .adress{
+    width: 200px;
+}
+.info_menu .prepare{
+    width: 200px;
+}
+.info_menu button{
+    float: left;
+    width: 50px;
+    height: 100%;
+    background-color: gold;
+}
+
+
+
+
+
+.employee{
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+    box-sizing:border-box;
+}
+.employee .employee_info{
+    height: 30px;
+    width: 100%;
+    border-bottom: none;
+}
+.employee_info span{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    width: 100px;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.employee_info .adress{
+    width: 200px;
+}
+.employee_info .prepare{
+    width: 200px;
+}
+.employee_info button{
+    float: left;
+    width: 50px;
+    height: 100%;
+    background-color: gold;
+}
