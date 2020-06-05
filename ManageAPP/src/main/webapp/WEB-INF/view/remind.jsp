@@ -13,7 +13,7 @@
 <script src="<c:url value="/resources/js/script.js" />" type="text/javascript"></script>
 <body>
   <!-- (1) -->
-  <form:form modelAttribute="remindForm" action="${pageContext.request.contextPath}/remind_info">
+  <form:form modelAttribute="remindForm" onsubmit="return check()" action="${pageContext.request.contextPath}/remind_info">
     <table>
     	<tr>
     		<td>職員番号：</td>
@@ -25,29 +25,33 @@
     	</tr>
     	<tr>
     		<td><input type="submit" /></td>
-    		<td><input type="button" value="新規追加" onclick="addInfo('${pageContext.request.contextPath}')"/></td>
+    		<td><input type="button" value="当月検索" id="dateSearch" /></td>
     	</tr>
     </table>
   </form:form>
-  <table id="table"  border="1" style="width: 100%;margin-top: 20px;">
-	<tr>
-		<th width="10%">名前</th>
-		<th width="25%">現場場所</th>
-		<th width="15%">プロジェクト名</th>
-		<th width="15%">前回面談日付</th>
-		<th width="15%">今回面談日付</th>
-		<th width="15%">備考</th>
-	</tr>
-	<c:forEach var="listValue" items="${remindList}">
-      <tr>
- 		<td>${listValue.name}</td>
- 		<td>${listValue.work_place} ${listValue.customer}</td>
- 		<td>${listValue.project}</td>
- 		<td>${listValue.pre_interview}</td>
- 		<td>${listValue.post_interview}</td>
- 		<td>${listValue.bikou}</td>
- 	  </tr>
-    </c:forEach>
-  </table>
+  <div id="model_show">
+	 <table id="table"  border="1" style="width: 100%;margin-top: 20px;">
+		<tr>
+			<th width="10%">名前</th>
+			<th width="25%">現場場所</th>
+			<th width="15%">プロジェクト名</th>
+			<th width="15%">前回面談日付</th>
+			<th width="15%">今回面談日付</th>
+			<th width="15%">備考</th>
+		</tr>
+		<c:forEach var="listValue" items="${remindList}">
+	      <tr>
+	 		<td>${listValue.name}</td>
+	 		<td>${listValue.work_place} ${listValue.customer}</td>
+	 		<td>${listValue.project}</td>
+	 		<td>${listValue.pre_interview}</td>
+	 		<td>${listValue.post_interview}</td>
+	 		<td>${listValue.bikou}</td>
+	 	  </tr>
+	    </c:forEach>
+	  </table>
+  </div>
+  <div id="ajax_show">
+  </div>
 </body>
 </html>
